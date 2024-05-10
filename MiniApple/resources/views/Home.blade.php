@@ -122,6 +122,27 @@
         </div>
     </section>
     <!-- About Section End -->
+
+    {{-- Place Order Section --}}
+    <section class="Order_Section">
+        <div class="container">
+            <div class="row align-items-center text-center">
+                <div class="col col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Order Card</h3>
+                            <p>This Page User Vist Products and Place Our Order</p>
+                            <a href="">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="{{asset('image/order.png')}}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- Place Order Section End --}}
     <!-- js bt -->
     <script src="./user.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
