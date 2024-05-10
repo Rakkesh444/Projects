@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Universe styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    height: 100vh;
+    max-width: 100%;
+    background-color: #272626 !important;
+}
+
+body a {
+    text-decoration: none;
+}
+
+/* Universe styling End*/
+
+
+/* navibation Bar */
+nav {
+    background: #a8ffcc;
+}
+
+/* Navbar links */
+/* Navbar links End*/
+/* Navigation bar Buttons */
+nav .container-fluid .navbar-brand {
+    display: flex;
+    gap: 10px;
+}
+
+/* nav .container-fluid .navbar-brand i {
+    color: #F1C40F;
+}
+
+*/
+nav .buttons a {
+    display: flex;
+    gap: 5px;
+    color: #000;
+    font-weight: 900;
+    border: 1px solid #28B463;
+    padding: 3px 10px;
+    border-radius: 20px;
+    transition: .6s;
+}
+
+nav .buttons a i {
+    color: #28B463;
+}
+
+nav .buttons a:hover {
+    background: #28B463;
+    color: #fff;
+}
+
+nav .buttons a:hover i {
+    color: #000;
+}
+
+/* Navigation bar Buttons End */
+/* navibation Bar End*/
+
+/* Front Page Styling */
+.Front-Section {
+    text-align: center;
+    position: relative;
+    top: 25%;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.Front-Section .text {
+    /* text-align: justify; */
+}
+
+.Front-Section .text h1:nth-child(2) {
+    color: #28B463 !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Front-Section .text a {
+    color: #000;
+    background: #28B463;
+    padding: 5px 20px;
+    border-radius: 2px 10px 2px 10px;
+}
+
+/* Front Page Styling End */
+
+
+/* About_Section */
+.About_Section {
+    height: 100vh;
+    max-width: 100%;
+}
+
+.About_Section .container {
+    position: relative;
+    top: 20%;
+}
+
+.About_Section .container .card {
+    margin-bottom: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.About_Section .container .card a {
+    color: #272626;
+    font-weight: 800;
+    border: 1.4px solid red;
+    padding: 3px 30px;
+    border-radius: 10% 5%/50%;
+    transition: .6s;
+}
+
+.About_Section .container .card a:hover {
+    color: red;
+}
+
+.About_Section .container .card a i {
+    color: red;
+    transition: .6s;
+}
+
+.About_Section .container .card a:hover i {
+    color: #272626;
+}
+
+/* About_Section End */
+/* Media Queries */
