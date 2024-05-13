@@ -77,24 +77,6 @@ nav .buttons a:hover i {
     max-width: 100%;
 }
 
-.Front-Section img {
-    animation: move 3s infinite alternate;
-}
-
-@keyframes move {
-    0% {
-        transform: translateY(0px);
-    }
-
-    100% {
-        transform: translateY(-40px);
-    }
-
-    0% {
-        transform: translateY(0px);
-    }
-}
-
 .Front-Section .text {
     /* text-align: justify; */
 }
@@ -154,27 +136,4 @@ nav .buttons a:hover i {
 }
 
 /* About_Section End */
-
-/* Order_Section */
-.Order_Section {
-    height: 100vh;
-    max-width: 100%;
-}
-
-.Order_Section .row .card {
-    height: 350px;
-    width: 75%;
-    background-color: #272626;
-    border: 1px solid #fff;
-    color: #fff;
-    cursor: pointer;
-    transition: .8s;
-}
-
-.Order_Section .row .card:hover {
-    border: 1px solid #470bec;
-    box-shadow: 0 0 10px #470bec, 0 0 40px #470bec;
-}
-
-/* Order_Section End */
 /* Media Queries */
