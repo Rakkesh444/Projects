@@ -77,10 +77,6 @@ nav .buttons a:hover i {
     max-width: 100%;
 }
 
-.Front-Section .text {
-    /* text-align: justify; */
-}
-
 .Front-Section .text h1:nth-child(2) {
     color: #28B463 !important;
     font-size: 30px;
