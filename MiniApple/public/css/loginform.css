@@ -121,12 +121,31 @@ body {
 }
 
 /* Form */
+nav {
+    padding: 10px !important;
+}
+
+nav a {
+    text-decoration: none;
+    color: #59e259;
+}
+
 .Register_Form form {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     height: 450px;
     width: 300px;
     padding: 20px;
     border-radius: 10px;
+}
+
+.Login_Form form {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    height: 450px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
 }
 
 .btn input {

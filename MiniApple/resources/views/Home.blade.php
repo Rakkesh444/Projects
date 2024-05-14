@@ -51,7 +51,7 @@
                     </ul>
                     <!-- Navbar Button -->
                     <div class="buttons">
-                        <a href="" class=""><i class="bi bi-people"></i>Login</a>
+                        <a href="{{route('logout')}}" class=""><i class="bi bi-people"></i>Logout</a>
                     </div>
                     <!-- Navbar Button End -->
                 </div>

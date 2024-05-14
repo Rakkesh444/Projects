@@ -25,4 +25,10 @@ class loginComtroller extends Controller
             return back()->withErrors(['invalid Credintials']);
         }
     }
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect('/login');
+    }
 }
