@@ -43,7 +43,7 @@
             <form action="/userlogin" method="POST">
                 @csrf
                 <div class="head">
-                    <h1>Register</h1>
+                    <h1>Login</h1>
                 </div>
                 <div class="input mt-4">
                     <input type="email" name="email" placeholder="Enter Email" class="form-control focus-ring focus-ring-danger">
