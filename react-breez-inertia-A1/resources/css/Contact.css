@@ -1,0 +1,35 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.Contact-Row-Section {
+    height: 90vh;
+    color: #fff;
+    align-items: center;
+}
+
+/* ROLES DASHBOARD CONTACT SECTION */
+
+.FLASH-ICONS {
+    font-size: 100px;
+    background: #4b0082;
+    /* background: #ddaeff; */
+    background: linear-gradient(180deg, #8c12e2 20%, #926aafb4) !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 0 0 20px #4b0082;
+    animation: font 4s linear infinite;
+}
+
+@keyframes font {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}

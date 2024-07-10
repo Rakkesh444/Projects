@@ -1,0 +1,84 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.container-fluid-create-user {
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(to right, #ad5389, #3c1053); */
+}
+
+.container-fluid-create-user .container form {
+    padding: 30px;
+}
+
+form .Create-Header {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.container-fluid-create-user .card {
+    /* From https://css.glass */
+    background: rgba(255, 254, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.9px);
+    -webkit-backdrop-filter: blur(2.9px);
+    border: 1px solid rgba(255, 254, 255, 0.34);
+    margin: 10px;
+    padding: 17px;
+}
+
+/* 
+.buttons button {
+    background-color: transparent;
+    border: 1px solid #e492c3 !important;
+    width: 25%;
+    color: #000;
+    box-shadow: 0 0 10px #e492c3;
+}
+
+.buttons button:hover {
+    transition: .7s;
+    background-color: #ad5389;
+} */
+
+@media all and (max-width: 560px) {
+    .cards {
+        /* background-color: aliceblue; */
+        background: rgba(255, 255, 255, .1);
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .container-fluid-create-user .container form input {
+        width: 100%;
+    }
+
+    .buttons button {
+        background-color: transparent;
+        border: 1px solid #e492c3 !important;
+        width: 100%;
+        color: aliceblue;
+        box-shadow: 0 0 10px #e492c3;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer span {
+        display: block;
+        text-align: justify;
+    }
+
+    .footer a {
+        position: relative;
+        top: 20px;
+        left: -30px;
+
+    }
+}

@@ -1,0 +1,125 @@
+bt
+---------------------
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+bt icon
+----------------------
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+ft Awe
+-----------------------
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
+
+popins
+-----------------------
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+font-family: "Poppins", sans-serif;//200
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  font-family: "Nunito", sans-serif;
+
+styled fonts
+-------------------------
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+AOS animate on scroll
+-----------------------
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+gradient colors
+------------------
+green: background: linear-gradient(132deg, rgb(125, 199, 144) 0.00%, rgb(11, 59, 23) 100.00%);
+
+bt icons
+-------------
+<i class="bi bi-box-arrow-in-right"></i>login
+<i class="bi bi-twitter"></i>twitter
+<i class="bi bi-person-lock"></i>admin
+ft icons
+-------------
+<i class="fa-solid fa-dragon"></i> dragon
+<i class="fa-brands fa-google"></i> google
+<i class="fa-brands fa-x-twitter"></i> twitter
+<i class="fa-brands fa-square-instagram"></i> insta
+<i class="fa-solid fa-right-to-bracket"></i> login
+<i class="fa-solid fa-registered"></i> register
+<i class="fa-solid fa-link"></i>link
+<i class="bi bi-cart2"></i>cart
+<i class="bi bi-trash"></i>trash
+
+
+
+ //loocalstorage
+    localStorage.setItem('peoducts', JSON.stringify([...JSON.parse(localStorage.getItem('products') || "[]"), { product: sidebarcontentbox.append(element) },]));
+    //loocalstorage
+
+     localStorage.setItem("products", JSON.stringify([...JSON.parse(localStorage.getItem("products") || "[]"), { product: itemList }]));
+
+
+      //create element for tick 
+        const tick = document.createElement("div");
+        tick.classList.add("tick");
+        tick.innerHTML;
+        //create element for tick 
+        const trash = document.createElement("div");
+        trash.classList.add("trash");
+        trash.innerHTML;
+
+------------------------------------------|
+bootstrap                                 |
+<i class="bi bi-stack"></i> lateyer 
+<i class="bi bi-filter-left"></i>content
+<i class="bi bi-journal"></i>
+<i class="bi bi-box-arrow-in-left"></i> logout
+<i class="bi bi-caret-left-fill"></i> closing arrow
+
+----------------------------------
+
+
+
+
+                        {/*Assigned Permission Baged all User */}
+                        {/* Create Role Menu || Assign Permission To Create Role*/}
+                        {hasPermission('Create Role') && (
+                            <Menu.Item key='rolesPermissionsOne' icon={<i className="bi bi-person-lock"></i>}>
+                                <Link href={route('roles.create')}>Create Roles</Link>
+                            </Menu.Item >
+                        )}
+                        {/* Create Permissions Menu || Assign Permission To Create Permission*/}
+                        {hasPermission('Create Permissions') && (
+                            <Menu.Item key='rolesPermissionsTWO' icon={<i className="bi bi-person-lock"></i>}>
+                                <Link href={route('permissions.create')} >Create Permission</Link>
+                            </Menu.Item>
+                        )}
+                        {hasPermission('User List') && (
+                            <Menu.Item key='UserList' icon={<i className="bi bi-tablet"></i>}>
+                                <Link href={route('users.index')} className='nav-link Sidebar-Menu-Links'>User List</Link>
+                            </Menu.Item >
+                        )}
+                        {/*  Role List Menu || Assign Permission To Role List*/}
+                        {hasPermission('Role List') && (
+                            <Menu.Item key='RoleLists' icon={<i className="bi bi-tablet"></i>}>
+                                <Link href={route('rolelist')} className='nav-link Sidebar-Menu-Links'>Role List</Link>
+                            </Menu.Item>
+                        )}
+                        {/* Permissions List Menu || Assign Permission To Permissions List*/}
+                        {hasPermission('Permissions List') && (
+                            <Menu.Item key='PermissionsList' icon={<i className="bi bi-tablet"></i>}>
+                                <Link href={route('permissions.index')} className='nav-link Sidebar-Menu-Links'>Permission List</Link>
+                            </Menu.Item>
+                        )}
+
+
+                        https://chatgpt.com/share/50f3bdff-e55b-4dbb-b1a9-c323571c2f02

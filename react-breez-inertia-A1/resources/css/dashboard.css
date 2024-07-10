@@ -1,0 +1,217 @@
+@import "rsuite/dist/rsuite.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+body a {
+    text-decoration: none !important;
+}
+
+/* Dashboard.jsx Styling */
+body .Content {
+    height: 90vh;
+}
+
+body .Content a {
+    text-decoration: none;
+}
+
+body .Content .card-links .Buy {
+    border: 1px solid #7b96ee;
+    box-shadow: 0 0 10px #6f82be;
+    padding: 4px 20px;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+body .Content .card-links .Buy:hover {
+    transition: 1s;
+    box-shadow: 0 0 10px #ececec;
+}
+
+body .Content .card-links .Cart {
+    color: #6f82be;
+    font-size: 20px;
+}
+
+body .Content .card-row {
+    height: 80vh;
+    display: grid;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+body .Content .card {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    transition: 0.7s;
+}
+
+body .Content .card:hover {
+    border: 1px solid #6f82be;
+    transition: 0.7s;
+}
+
+body .Content .card {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+body::-webkit-scrollbar {
+    width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #7b96ee;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #3f4c77;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* AdminLayout.jsx Styling */
+.Main-Container-Layout a {
+    text-decoration: none;
+}
+
+.Main-Layout {
+    height: 150vh;
+    /* background-image: linear-gradient(112.1deg, rgb(32, 38, 57) 13.4%, #3f4c77 70.2%); */
+}
+
+.Main-Side-Bar .Head-Logo-Icon i {
+    position: absolute;
+    top: 0;
+    font-size: 17px;
+    animation: box 5s infinite linear;
+}
+
+.Main-Side-Bar .Head-Logo-Icon p {
+    position: absolute;
+    top: -11px;
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+}
+
+.Menu-Links a,
+i {
+    color: #7082be !important;
+}
+
+@keyframes box {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 0 12px #807e7e;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.logout-icon {
+    transform: translateY(170px);
+}
+
+.Main-Side-Bar {
+    background-color: #fff !important;
+}
+
+.Main-Side-Bar .Sidebar-Menu-Links,
+.Main-Side-Bar i {
+    color: #7082be !important;
+}
+
+.Header .Navigation-Memu-Line {
+    display: none;
+}
+
+.Sidebar-Menu-Inside-Content {
+    display: none;
+}
+
+.Boot-Canvas {
+    display: none;
+}
+
+.Main-Layout .Admin-Content-Layout {
+    margin: 80px 16px 16px 40px;
+}
+
+.Main-Side-Bar::-webkit-scrollbar {
+    width: 2px !important;
+}
+
+.Main-Side-Bar::-webkit-scrollbar-track {
+    background-color: #7b96ee;
+}
+
+.Main-Side-Bar::-webkit-scrollbar-thumb {
+    background-color: #3f4c77;
+}
+
+/* Admin-Dashboar-container */
+
+
+@media all and (max-width:560px) {
+    body .Content .card {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    body .Content .card .card-body {
+        text-align: center;
+    }
+
+    .Header .Navigation-Memu-Line {
+        display: none;
+    }
+
+    .Sidebar-Menu-Inside-Content {
+        display: none;
+    }
+
+    .Main-Side-Bar {
+        display: none;
+    }
+
+    .div-1,
+    .div-2 {
+        display: none;
+    }
+
+    .Boot-Canvas {
+        display: block;
+        position: absolute;
+        left: 0;
+    }
+
+    .Main-Layout .Admin-Content-Layout {
+        margin: 50px 0 0 0;
+    }
+
+}
