@@ -86,7 +86,7 @@ const AdminLayout = ({ children }) => {
                             {/*  Role List Menu || Assign Permission To Role List*/}
                             {hasPermission('Role List') && (
                                 <Menu.Item key='RoleLists'>
-                                    <Link href={route('rolelist')} className='nav-link Sidebar-Menu-Links'>Role List</Link>
+                                    <Link href={route('roles.index')} className='nav-link Sidebar-Menu-Links'>Role List</Link>
                                 </Menu.Item>
                             )}
                             {/* Permissions List Menu || Assign Permission To Permissions List*/}

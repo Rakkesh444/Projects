@@ -6,7 +6,7 @@ import AdminLayout from '../../Layouts/AdminLayout';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 export default function ViewData({ auth }) {
-    const { roles, flash } = usePage().props
+    const { roles, flash } = usePage().props;
     const [data, setData, id] = useState([]);
     const [visible, setVisible] = useState(true);
     useEffect(() => {
