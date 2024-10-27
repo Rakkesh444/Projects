@@ -51,9 +51,9 @@ Route::get('/update', function () {
     return Inertia::render('Auth/Update');
 })->middleware('auth')->name('update');
 
-Route::get('/profile', function () {
-    return Inertia::render('Auth/Profil');
-})->middleware('auth')->name('profile');
+// Route::get('/profile', function () {
+//     return Inertia::render('Auth/Profil');
+// })->middleware('auth')->name('profile');
 
 Route::get('/view', function () {
     return Inertia::render('Auth/View');
